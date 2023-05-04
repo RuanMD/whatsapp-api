@@ -5,6 +5,8 @@ RUN apt-get upgrade -y
 
 WORKDIR /codechat
 
+COPY ./src .
+
 COPY ./package.json .
 
 RUN npm install
