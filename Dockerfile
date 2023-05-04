@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18.16.0
 
 RUN apt-get update -y
 RUN apt-get upgrade -y
